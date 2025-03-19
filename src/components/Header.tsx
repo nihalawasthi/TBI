@@ -23,7 +23,7 @@ const Header: React.FC = () => {
             <div className="flex items-center">
               <img
                 className="h-16 w-16 mr-2 p-0 object-contain"
-                src="https://raw.githubusercontent.com/nihalawasthi/TBI/d8b365cdec2a39c220400640d670df7b4dcf1452/public/icon.png"
+                src="/icon.png"
                 alt="TBI Logo"
               />
               <span className="text-xl font-bold text-primary dark:text-white">

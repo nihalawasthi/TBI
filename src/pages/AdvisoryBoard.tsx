@@ -32,13 +32,7 @@ const AdvisoryBoard = () => {
                 <div className="md:w-2/5 p-6 flex justify-center md:justify-start items-center">
                   <div
                     className="w-48 h-48 rounded-full overflow-hidden border-4 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                      className="h-24 w-24 text-gray-400 dark:text-gray-500" fill="none"
-                      viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
+                      <img src="/images/Dr. G. Viswanathan.jpg" alt="" className="h-full w-full rounded-full text-white" />
                   </div>
                 </div>
                 <div className="md:w-3/5 p-6 md:p-8">
@@ -87,13 +81,7 @@ const AdvisoryBoard = () => {
                     <div className="mb-4 sm:mb-0 sm:mr-6">
                       <div
                         className="w-24 h-24 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                          className="h-12 w-12 text-gray-400 dark:text-gray-500"
-                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
+                      <img src="/images/Mr. Sankar Viswanathan.jpg" alt="Mr. Sankar Viswanathan" className="h-full w-full rounded-full text-white" />
                       </div>
                     </div>
                     <div className="text-center sm:text-left">
@@ -121,13 +109,7 @@ const AdvisoryBoard = () => {
                     <div className="mb-4 sm:mb-0 sm:mr-6">
                       <div
                         className="w-24 h-24 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                          className="h-12 w-12 text-gray-400 dark:text-gray-500"
-                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
+                      <img src="/images/Ms. Kadhambari S. Viswanathan.jpg" alt="Ms. Kadhambari S. Viswanathan" className="h-full w-full rounded-full text-white" />
                       </div>
                     </div>
                     <div className="text-center sm:text-left">
@@ -166,13 +148,8 @@ const AdvisoryBoard = () => {
                   <div className="flex flex-col items-center">
                     <div
                       className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 text-gray-400 dark:text-gray-500" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
+                      <img src="/images/Dr. T. B. Sridharan.jpeg" alt="Dr. T. B. Sridharan" className="h-full w-full rounded-full text-white" />
+
                     </div>
                     <h4 className="text-lg font-bold text-[#1a237e] dark:text-white">Dr. T. B.
                       Sridharan</h4>
@@ -194,13 +171,8 @@ const AdvisoryBoard = () => {
                   <div className="flex flex-col items-center">
                     <div
                       className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 text-gray-400 dark:text-gray-500" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
+                      <img src="/images/Dr. K. K. Nair.jpg" alt="Dr. K. K. Nair" className="h-full w-full rounded-full text-white" />
+
                     </div>
                     <h4 className="text-lg font-bold text-[#1a237e] dark:text-white">Dr. K. K.
                       Nair</h4>
@@ -222,13 +194,8 @@ const AdvisoryBoard = () => {
                   <div className="flex flex-col items-center">
                     <div
                       className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 text-gray-400 dark:text-gray-500" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
+                      <img src="/images/Dr. Hemraj Shobharam Lamkuche.jpg" alt="Dr. Hemraj Shobharam Lamkuche" className="h-full w-full rounded-full text-white" />
+
                     </div>
                     <h4 className="text-lg font-bold text-[#1a237e] dark:text-white">Dr. Hemraj
                       Shobharam Lamkuche</h4>
@@ -250,13 +217,8 @@ const AdvisoryBoard = () => {
                   <div className="flex flex-col items-center">
                     <div
                       className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 text-gray-400 dark:text-gray-500" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
+                      <img src="/images/Dr. Abdul Rashid.jpg" alt="Dr. Abdul Rashid" className="h-full w-full rounded-full text-white" />
+
                     </div>
                     <h4 className="text-lg font-bold text-[#1a237e] dark:text-white">Dr. Abdul
                       Rashid</h4>
@@ -278,13 +240,8 @@ const AdvisoryBoard = () => {
                   <div className="flex flex-col items-center">
                     <div
                       className="w-20 h-20 rounded-full overflow-hidden border-2 border-[#1a237e] dark:border-[#ff6f00] bg-gray-100 dark:bg-neutral-700 flex items-center justify-center mb-4">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        className="h-10 w-10 text-gray-400 dark:text-gray-500" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
+                      <img src="/images/Dr. Prasad Begde.jpg" alt="Dr. Prasad Bedge" className="h-full w-full rounded-full text-white" />
+
                     </div>
                     <h4 className="text-lg font-bold text-[#1a237e] dark:text-white">Dr. Prasad
                       Bedge</h4>

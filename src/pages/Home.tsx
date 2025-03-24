@@ -554,13 +554,7 @@ const Home = () => {
                                 <div className="w-full h-96 md:h-[450px] bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center p-8"
                                     id="el-7zvaqwpy">
                                     <div className="flex flex-col items-center text-white" id="el-vtl2ug6n">
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                            className="h-20 w-20 mb-4 animate-pulse" fill="none" viewBox="0 0 24 24"
-                                            stroke="currentColor" id="el-xzevxjyn">
-                                            <path strokeLinecap="round" strokeLinejoin="round"
-                                                strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"
-                                                id="el-2g9vmv8g"></path>
-                                        </svg>
+                                        <img className="h-[12rem] w-[12rem] mb-4" src="/icon.png" alt="" />
                                         <p className="text-xl font-bold text-center" id="el-94v8fumb">Igniting
                                             Innovation &amp; Entrepreneurship</p>
                                         <p className="text-md text-center mt-2 text-blue-200" id="el-0l74upfk">

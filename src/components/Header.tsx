@@ -29,7 +29,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between h-16">
             {/* Logo Section */}
             <div className="flex items-center">
-              <img className="h-16 w-16 mr-2 p-0 object-contain" src="/icon.png" alt="TBI Logo" />
+              <img className="h-20 w-20 mr-2 p-0 object-contain" style={{ filter: "drop-shadow(0px 0px 7px white)"}} src="/icon.png" alt="TBI Logo" />
               <span className="text-xl font-bold text-primary dark:text-white">TBI VIT Bhopal</span>
             </div>
 

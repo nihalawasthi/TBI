@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CurtainIntro from './pages/curtain';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import AdvisoryBoard from './pages/AdvisoryBoard';
@@ -28,7 +29,8 @@ const App: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<CurtainIntro />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/advisory-board" element={<AdvisoryBoard />} />
         <Route path="/about" element={<About />} />
         <Route path="/events" element={<Events />} />

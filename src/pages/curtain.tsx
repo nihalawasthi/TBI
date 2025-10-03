@@ -70,7 +70,7 @@ export function CurtainIntro() {
         transition={{ duration: prefersReducedMotion ? 0 : DURATION, ease: "easeInOut" }}
         className={cn(
           "absolute top-0 left-0 h-full w-1/2",
-          "bg-[url(/public/curtain.jpg)] bg-cover shadow-2xl",
+          "bg-[url(/curtain.jpg)] bg-cover shadow-2xl",
           "rounded-r-xl border-r border-black",
         )}
         aria-hidden="true"
@@ -88,7 +88,7 @@ export function CurtainIntro() {
         transition={{ duration: prefersReducedMotion ? 0 : DURATION, ease: "easeInOut" }}
         className={cn(
           "absolute top-0 right-0 h-full w-1/2",
-          "bg-[url(/public/curtain.jpg)] bg-cover shadow-2xl",
+          "bg-[url(/curtain.jpg)] bg-cover shadow-2xl",
           "rounded-l-xl border-l border-black",
         )}
         aria-hidden="true"
@@ -104,3 +104,4 @@ export function CurtainIntro() {
 }
 
 export default CurtainIntro
+
